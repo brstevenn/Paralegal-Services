@@ -92,7 +92,7 @@ function Prices() {
               </p>
             </div>
           </div>
-          <form action="/form" >
+          <form action="/Paralegal-Services/form" >
             <label htmlFor="materialSelect" >
               <select className="materialName" name="selectoption" id="selectoption" >
                 <option value="default" >Select a Material</option>
