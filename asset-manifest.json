@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Paralegal-Services/static/css/main.8f435f85.css",
-    "main.js": "/Paralegal-Services/static/js/main.c852ea47.js",
+    "main.js": "/Paralegal-Services/static/js/main.eba7d87b.js",
     "static/js/787.b432e967.chunk.js": "/Paralegal-Services/static/js/787.b432e967.chunk.js",
     "index.html": "/Paralegal-Services/index.html",
     "main.8f435f85.css.map": "/Paralegal-Services/static/css/main.8f435f85.css.map",
-    "main.c852ea47.js.map": "/Paralegal-Services/static/js/main.c852ea47.js.map",
+    "main.eba7d87b.js.map": "/Paralegal-Services/static/js/main.eba7d87b.js.map",
     "787.b432e967.chunk.js.map": "/Paralegal-Services/static/js/787.b432e967.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8f435f85.css",
-    "static/js/main.c852ea47.js"
+    "static/js/main.eba7d87b.js"
   ]
 }
