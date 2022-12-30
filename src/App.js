@@ -18,15 +18,15 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/aboutus" element={<About />} />
-        <Route exact path="/services" element={<Services />} />
-        <Route exact path="/servicedeclaration" element={<ServiceDeclaration />} />
-        <Route exact path="/servicewriter" element={<ServiceWriter />} />
-        <Route exact path="/prices" element={<Prices />} />
-        <Route exact path="/blog" element={<Blog />} />
-        <Route exact path="/contactus" element={<Contact />} />
-        <Route exact path="/form" element={<Form />} />
+        <Route exact path="/Paralegal-Services/" element={<Home />} />
+        <Route exact path="/Paralegal-Services/aboutus" element={<About />} />
+        <Route exact path="/Paralegal-Services/services" element={<Services />} />
+        <Route exact path="/Paralegal-Services/servicedeclaration" element={<ServiceDeclaration />} />
+        <Route exact path="/Paralegal-Services/servicewriter" element={<ServiceWriter />} />
+        <Route exact path="/Paralegal-Services/prices" element={<Prices />} />
+        <Route exact path="/Paralegal-Services/blog" element={<Blog />} />
+        <Route exact path="/Paralegal-Services/contactus" element={<Contact />} />
+        <Route exact path="/Paralegal-Services/form" element={<Form />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
