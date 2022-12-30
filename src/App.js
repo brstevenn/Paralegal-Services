@@ -19,14 +19,14 @@ function App() {
     <div className="App">
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/aboutus" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/servicedeclaration" element={<ServiceDeclaration />} />
-        <Route path="/servicewriter" element={<ServiceWriter />} />
-        <Route path="/prices" element={<Prices />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/contactus" element={<Contact />} />
-        <Route path="/form" element={<Form />} />
+        <Route exact path="/aboutus" element={<About />} />
+        <Route exact path="/services" element={<Services />} />
+        <Route exact path="/servicedeclaration" element={<ServiceDeclaration />} />
+        <Route exact path="/servicewriter" element={<ServiceWriter />} />
+        <Route exact path="/prices" element={<Prices />} />
+        <Route exact path="/blog" element={<Blog />} />
+        <Route exact path="/contactus" element={<Contact />} />
+        <Route exact path="/form" element={<Form />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
