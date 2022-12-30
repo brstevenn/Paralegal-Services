@@ -1,0 +1,138 @@
+.declarationContainer {
+	text-align: center;
+	padding: 10px;
+	border-radius: 1%;
+	margin: 10px;
+}
+
+.declarationTitle {
+	font-size: 50px;
+	margin: 20px 10px 0px 10px;
+	color: #f1b822;
+}
+
+.declarationDescription {
+	margin: 0px 0px 10px 0px;
+}
+
+.declarationContainCrads {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+	border-radius: 1%;
+	padding: 20px;
+}
+.declarationCard {
+	padding: 10px 20px 10px 20px;
+	background-color: #0d0d0d17;
+	border-radius: 5%;
+}
+.declarationButton {
+	padding: 10px;
+	margin-bottom: 12px;
+	background-color: #0d0d0d3d;
+	border: none;
+	border-radius: 4%;
+}
+.declarationButton:hover {
+	cursor: pointer;
+	background-color: #bb8d15;
+}
+.declarationOneTitle {
+	font-size: 23px;
+	color: #bb8d15;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+.declarationOneText {
+	color: black;
+	font-size: 15px;
+}
+.declarationTwoTitle {
+	font-size: 28px;
+	margin: 18px 10px 0px 10px;
+	color: #bb8d15;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+.declarationTwoText {
+	color: black;
+	font-size: 16.5px;
+	margin: 25px 0px 15px 0px;
+}
+.declarationThreeTitle {
+	font-size: 23px;
+	color: #bb8d15;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+.declarationThreeText {
+	color: black;
+	font-size: 15px;
+	margin: 10px 0px 30px 0px;
+}
+.declarationFourTitle {
+	font-size: 25px;
+	color: #bb8d15;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin: 15px 10px 20px 10px;
+}
+.declarationFourText {
+	color: black;
+	font-size: 17px;
+}
+.declarationFiveTitle {
+	font-size: 28px;
+	color: #bb8d15;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin: 12px 0px 15px 0px;
+}
+.declarationFiveText {
+	color: black;
+	font-size: 16.5px;
+	margin: 0px 5px 15px 5px;
+}
+.declarationSixTitle {
+	font-size: 22px;
+	color: #bb8d15;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin: 0px 5px 10px 5px;
+}
+.declarationSixText {
+	color: black;
+	font-size: 14.6px;
+	margin: 10px 10px 28px 10px;
+}
+.declarationSevenTitle {
+	font-size: 21px;
+	color: #bb8d15;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+.declarationSevenText {
+	color: black;
+	font-size: 15.8px;
+}
+.declarationNigthTitle {
+	font-size: 20px;
+	color: #bb8d15;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+.declarationNigthText {
+	color: black;
+  	font-size: 16px;
+}
+.declarationNineTitle {
+	font-size: 20px;
+	color: #bb8d15;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+.declarationNineText {
+	color: black;
+	font-size: 14px;
+}

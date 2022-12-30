@@ -1,0 +1,62 @@
+.blogContainer {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 5% 5% 15% 5%;
+	padding: 5px;
+	background-color: #0000002e;
+	border-radius: 1%;
+}
+.picImage {
+	border-top-left-radius: 5%;
+	border-bottom-left-radius: 5%;
+}
+.postDetails {
+	background-color: white;
+	border-top-right-radius: 5%;
+	border-bottom-right-radius: 5%;
+	padding: 3px 10px 3px 10px;
+}
+.picData {
+	display: flex;
+	margin: 2% 0% 0% 2%;
+}
+.profilePic {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+.profData {
+	margin: 0px 10px 0px 10px;
+}
+.profileName {
+	margin: 0px;
+}
+.dataPost {
+	margin: 0px;
+}
+.postData {
+	margin: 0px 10px 20px 10px;
+}
+.postTitle {
+	font-size: 28px;
+	margin-bottom: 5px;
+}
+.postDescription {
+	font-size: 21px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+.interactionData {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 0px 10px 0px 10px;
+}
+.viwComm {
+	display: flex;
+}
+.fav {
+	text-align: end;
+}
+.favIcon {
+	width: 7%;
+}

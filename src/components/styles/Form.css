@@ -1,0 +1,43 @@
+.formContainer {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	margin: 10px 20px 10px 20px;
+}
+.formContain {
+	display: inline-grid;
+	justify-content: center;
+}
+.labelContain {
+	align-items: center;
+ 	justify-content: end;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin-top: 20px;
+}
+.valueText {
+	text-align: center;
+}
+.labelContainDescription {
+	display: block;
+}
+.descriptionTitle {
+
+}
+.descriptionText {
+	width: 98%;
+	height: 120px;
+}
+.formButton {
+	margin: 5% 0% 10% 0%;
+	padding: 1%;
+	width: 100%;
+	border: none;
+	border-radius: 5%;
+	background-color: #00060b69;
+}
+.formButton:hover {
+	background-color: #f7c335;
+}
+.advert {
+	color: red;
+}

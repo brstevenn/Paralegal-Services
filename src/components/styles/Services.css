@@ -1,0 +1,82 @@
+.servicesCon {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	text-align: center;
+}
+.titleServices {
+	font-size: 70px;
+	color: #f1b822;
+	margin: 10px 10px 0px 10px;
+}
+
+.servicesContainerAll {
+	display: grid;
+	grid-template-columns: 400px 400px;
+	justify-content: space-evenly;
+	margin: 30px 40px 10px 40px;
+	text-align: center;
+	gap: 20px;
+}
+.servicesCard {
+	background-color: #1716169c;
+	border-radius: 5%;
+}
+.servicesTitleOne {
+	font-size: 25px;
+	color: #f7c335;
+}
+.servicesTextOne {
+	margin: 10px 30px 10px 30px;
+	color: white;
+	font-size: 20px;
+}
+.servicesTitleTwo {
+	font-size: 20px;
+	padding: 0px 10px 0px 10px;
+	margin: 15px 15px 15px 15px;
+	color: #f7c335;
+}
+.servicesTextTwo {
+	margin: 10px 30px 10px 30px;
+	color: white;
+	font-size: 17px;
+}
+.servicesTitleThree {
+	font-size: 35px;
+	color: #f7c335;
+	margin: 15px 10px 10px 10px;
+}
+.servicesTextThree {
+	margin: 10px 30px 10px 30px;
+	color: white;
+	font-size: 18px;
+}
+.servicesTitleFour {
+	font-size: 25px;
+	color: #f7c335;
+}
+.servicesTextFour {
+	margin: 10px 30px 10px 30px;
+	color: white;
+	font-size: 18px;
+}
+.servicesTitleFive {
+	font-size: 30px;
+	color: #f7c335;
+	margin-bottom: 15px;
+}
+.servicesTextFive {
+	margin: 10px 30px 10px 30px;
+	color: white;
+	font-size: 20px;
+}
+.servicesTitleSix {
+	font-size: 25px;
+	color: #f7c335;
+	margin: 32px 10px 22px 10px;
+}
+.servicesTextSix {
+	margin: 10px 30px 10px 30px;
+	color: white;
+	font-size: 20px;
+}

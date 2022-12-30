@@ -1,0 +1,228 @@
+.servicesContainer {
+	display: grid;
+	grid-template-columns: 400px 400px;
+	justify-content: space-evenly;
+	gap: 50px 0px;
+	margin: 30px 0px 60px 0px;
+}
+.servicesImgContainer {
+	width: 400px;
+	height: 600px;
+	background-image: url("https://st3.depositphotos.com/2923991/18782/i/600/depositphotos_187827676-stock-photo-marriage-rings-on-a-thick.jpg");
+	text-align: center;
+	border-radius: 5%;
+}
+
+.serviceContent {
+	background-color: #1716169c;
+	margin: 10px 50px 10px 50px;
+	width: 300px;
+	height: 400px;
+	text-align: center;
+	border-radius: 5%;
+}
+
+.serviceButton {
+	background-color: #ffffffa3;
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+	border-radius: 5%;
+}
+.serviceButton:hover {
+	background-color: #f7c335;
+}
+
+
+.titleServiceOne {
+	font-size: 35px;
+	color: #f7c335;
+}
+.serviceTextOne {
+	margin: 0px;
+	padding: 15px;
+	font-size: 15px;
+	width: 270px;
+	height: 370px;
+	color: white;
+}
+.titleServiceTwo {
+	font-size: 27px;
+	color: #f7c335;
+	height: 62px;
+}
+.serviceTextTwo {
+	margin: 0px;
+	padding: 40px 20px 0px 20px;
+	font-size: 20px;
+	width: 260px;
+	height: 360px;
+	color: white;
+}
+.titleServiceThree {
+	font-size: 35px;
+	color: #f7c335;
+	margin: 20px 0px 10px 0px;
+}
+
+.titleServiceFour {
+	font-size: 26px;
+	color: #f7c335;
+}
+
+.titleServiceFive {
+	font-size: 35px;
+	color: #f7c335;
+}
+
+
+.packagesContainer {
+	display: grid;
+	justify-content: space-around;
+	width: 400px;
+	height: 330px;
+	grid-template-columns: 100px 180px;
+	gap: 15px 60px;
+	align-content: center;
+}
+.packageContainer {
+	width: 180px;
+	height: 150px;
+}
+.packageContainerThree {
+	width: 150px;
+	height: 145px;
+	margin: 0px 0px 0px 90px;
+}
+.packageContainerBox {
+	width: 180px;
+	height: 150px;
+	position: absolute;
+	z-index: 3;
+}
+.packageButton {
+	margin: 5px 0px 0px 0px;
+	padding: 3px 8px 3px 8px;
+	border: none;
+	border-radius: 5%;
+	background-color: #ffffffa3;
+}
+.packageButton:hover {
+	margin: 5px 0px 0px 0px;
+	padding: 3px 8px 3px 8px;
+	border: none;
+	border-radius: 5%;
+	background-color: #f7c335;
+}
+.packageContainOne {
+	font-size: 11.5px;
+	margin: 1%;
+	padding: 10px 7px 2px 6px;
+	color: black;
+}
+.packageContainTwo {
+	font-size: 11px;
+	margin: 1%;
+	padding: 5px 6px 2px 6px;
+	color: black;
+}
+.packageContainThree {
+	font-size: 11.6px;
+	margin: 1%;
+	padding: 5px 6px 2px 6px;
+	color: black;
+}
+
+.packageContainerBoxFigure {
+	width: 0px;
+	height: 125px;
+	border-left: 90px solid #ffffff9c;
+	border-right: 90px solid #ffffff9c;
+	border-bottom: 30px solid transparent;
+	display: flex;
+	position: absolute;
+	z-index: 2;
+}
+.packageAdvert {
+	background-color: #f7c335;
+	color: #000;
+	font-size: 11px;
+	margin: 30px 15px 15px 15px;
+	border-radius: 5%;
+	padding: 10px;
+}
+
+.serviceContentFour {
+	display: grid;
+	grid-template-columns: 200px 100px;
+	justify-content: space-evenly;
+
+	background-color: #1716169c;
+	margin: 10px 50px 10px 50px;
+	width: 300px;
+	height: 400px;
+	text-align: center;
+	border-radius: 5%;
+}
+.serviceTextFour-One-Contain {
+	text-align: start;
+	width: 200px;
+}
+.serviceTextFour-One {
+	margin: 0px;
+	padding: 25px 0px 0px 20px;
+	font-size: 18px;
+	color: white;
+}
+.serviceTextFour-Two-Contain {
+	width: 100px;
+	text-align: end;
+}
+.serviceTextFour-Two {
+	margin: 0px;
+	padding: 25px 20px 0px 0px;
+	font-size: 18px;
+	color: white;
+}
+.materialName {
+	padding: 15px;
+	background-color: #ffffff91;
+	border: none;
+  	border-right-color: currentcolor;
+  	border-right-style: none;
+  	border-right-width: medium;
+	border-right: 1px solid black;
+	border-top-left-radius: 10%;
+	border-bottom-left-radius: 10%;
+}
+.submitButton {
+	padding: 15px;
+	background-color: #ffffff91;
+	border: none;
+	border-top-right-radius: 5%;
+	border-bottom-right-radius: 5%;
+}
+
+
+
+.serviceContentFive {
+	background-color: #1716169c;
+	margin: 10px 50px 10px 50px;
+	width: 300px;
+	height: 400px;
+	text-align: center;
+	border-radius: 5%;
+}
+.tierTitle {
+	color: white;
+	margin: 0px 0px 0px 0px;
+	padding: 50px 0px 0px 0px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.tierText {
+	color: white;
+	margin: 0px 0px 5px 0px;
+	font-weight: normal;
+	font-size: 20px;
+}

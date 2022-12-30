@@ -1,0 +1,24 @@
+.slideContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+.slideNavigate {
+  font-size: 45px;
+  background-color: #00000040;
+  border-radius: 25%;
+  margin: 20px;
+  border: none;
+  padding: 8px;
+}
+.slideNavigate:hover {
+  cursor: pointer;
+  background-color: #bb8d15;
+}
+.slideImages {
+  display: -webkit-box;
+}
+.imageview {
+  height: 450px;
+}

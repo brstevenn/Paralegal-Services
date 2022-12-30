@@ -1,0 +1,195 @@
+.homeContainer {
+  font-family: 'Abyssinica SIL', serif;
+  font-weight: initial;
+}
+
+.titelContainer {
+  text-align: center;
+  padding: 10px 30px 20px 30px;
+}
+.title {
+  font-size: 80px;
+  color: #f1b822;
+  margin: 10px 0px 0px 0px;
+}
+.titleDescription {
+  padding: 0px 60px 0px 60px;
+  font-size: 15px;
+  margin: 0px 0px 40px 0px;
+}
+
+
+.servicesContainer {
+  padding: 20px;
+  display: flex; 
+}
+.servicesDetails {
+  padding: 0px 20px 0px 0px;
+}
+.Services {
+  margin: 0%;
+  font-size: 2.3rem;
+  padding: 0px;
+}
+.serviceDescription {
+  margin: 1%;
+  font-size: 1.3rem;
+}
+.servicesList {
+  padding: 10px 0px 10px 19px;
+  font-size: 1.1rem;
+  margin-left: 2%;
+}
+.buttonService {
+  background-color: #0d0d0d3d;
+  margin: 10px 30px 20px 30px;
+  padding: 15px 25px 15px 25px;
+  border: none;
+  font-size: 20px;
+  border-radius: 4%;
+}
+.buttonService:hover {  
+ background-color: #f7c335;
+ cursor: pointer;
+}
+.servicesImage {
+  padding: 10px 10px 10px 25px;
+}
+
+
+
+
+.testimonyContainer {
+  text-align: center;
+  margin: 3%;
+}
+.testimonyTitle{
+  margin: 0px;
+  font-size: 2rem;
+}
+.testimony {
+  display: flex;
+}
+.testimonyTamble {
+  margin: 10px;
+  padding: 0px 15px 0px 15px;
+  background-color: #0d0d0d17;
+  width: -moz-available;
+  border-radius: 5%;
+}
+.read-more-state {
+  display: none;
+}
+.read-more-target {
+  display: inline-block;
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  display: flex;
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #ae6200;
+  font-size: .9em;
+  line-height: 2;
+  border-radius: .25em;
+}
+.nameTestimony {
+  font-size: 1rem;
+}
+.pTestimony {
+  font-size: 0.8rem;
+  color: #666;
+}
+.testimonyButton {
+  background-color: #0d0d0d3d;
+  margin: 10px 30px 20px 30px;
+  padding: 15px 25px 15px 25px;
+  border: none;
+  font-size: 20px;
+  border-radius: 4%;
+}
+.testimonyButton:hover {  
+ background-color: #f7c335;
+ cursor: pointer;
+}
+.cotactUsContainer {
+  justify-content: center;
+  text-align: center;
+  background-color: #fbf70680;
+  padding: 5px 0px 5px 0px;
+}
+.titleContactUs {
+  font-size: 3.5rem;
+  margin-bottom: 0px;
+} 
+.descriptionContactUs {
+  font-size: 1.3rem;
+} 
+.buttonContactUs {
+  background-color: #0d0d0d3d;
+  margin: 10px 30px 20px 30px;
+  padding: 15px 25px 15px 25px;
+  border: none;
+  font-size: 20px;
+  border-radius: 4%;
+}
+.buttonContactUs:hover {
+  background-color: #f7c335;
+  cursor: pointer;
+}
+
+
+.footer {
+  text-align: center;
+}
+
+.footerDetails {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  list-style: none;
+}
+
+.socialMedia {
+  display: flex;
+  padding-right: 3rem;
+}
+
+.mediaLink {
+  padding: 3%;
+}
+
+.mediaLogo2 {
+  width: 25px;
+  height: 25px;
+  border-radius: 25%;
+}
