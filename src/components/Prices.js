@@ -13,7 +13,7 @@ function Prices() {
     e.preventDefault();
 
     if(e.target.id != undefined) {  
-      navigate(`/form?${e.target.id}`)
+      navigate(`/Paralegal-Services/form?${e.target.id}`)
     }
   }
 
