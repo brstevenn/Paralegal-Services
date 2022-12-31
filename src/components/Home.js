@@ -74,13 +74,13 @@ function Home() {
           <p> &copy; By Freelance Paralegal Services</p>
           <ul className="nav">
             <li className="nav-item">
-              <a className="nav-link" href="#">Legal Notice</a>
+              <a className="nav-link" href="https://www.linkedin.com/in/bryan-gaitan-0ba256119/">Legal Notice</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Privacy Policy</a>
+              <a className="nav-link" href="https://www.linkedin.com/in/bryan-gaitan-0ba256119/">Privacy Policy</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Cookies Policy</a>
+              <a className="nav-link" href="https://www.linkedin.com/in/bryan-gaitan-0ba256119/">Cookies Policy</a>
             </li>
           </ul>
           <div className="socialMedia">
@@ -89,7 +89,7 @@ function Home() {
             <a className="mediaLink" href="https://www.linkedin.com/company/76534303/admin/" target="_blank" rel="noopener noreferrer" ><img className="mediaLogo2" src="https://static.wixstatic.com/media/48a2a42b19814efaa824450f23e8a253.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/48a2a42b19814efaa824450f23e8a253.png" alt="linkedinLogo"/></a>
           </div>
         </div>
-        <p>Developed by<a className="nav-link" href="#">Bryan Gaitan</a></p>
+        <p>Developed by<a className="nav-link" href="https://www.linkedin.com/in/bryan-gaitan-0ba256119/">Bryan Gaitan</a></p>
       </div>
     </div>
   );

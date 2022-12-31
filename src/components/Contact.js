@@ -66,7 +66,7 @@ function Contact() {
                 <label htmlFor="no">No</label>
               </div>
             </label>
-            <button type="submit" className="contactFormButton" >Submit</button>
+            <button type="button" className="contactFormButton" >Submit</button>
           </form>
         </div>
 

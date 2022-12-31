@@ -1,10 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import NavBar from './NavBar'
 
-const style = {
+/*const style = {
   textDecoration: "none"
-}
+}*/
 
 function NotFound() {
   return (

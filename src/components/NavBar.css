@@ -1,7 +1,7 @@
 
 
 .image{
-    width: 12%;
+    width: 7%;
 }
 
 .nav {
@@ -25,7 +25,7 @@
 }
 
 .image.imageChange {
-    width: 10%;
+    width: 7%;
     transition: 1s;
 }
 

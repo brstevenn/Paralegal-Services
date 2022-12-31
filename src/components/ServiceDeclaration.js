@@ -9,7 +9,7 @@ function ServiceDeclaration() {
 
     function handleClickContactUs(e) {
         e.preventDefault();
-        navigate(`/contactus`)
+        navigate(`/Paralegal-Services/contactus`)
 
     }
 

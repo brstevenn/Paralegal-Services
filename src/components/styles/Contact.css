@@ -107,7 +107,12 @@ input[type="radio"]:checked {
   	box-shadow: 0 0 0 3px #e8f2e538;
 }
 .contactFormButton {
-	font-size: 20px;
-  	margin: 5% 40% 0% 40%;
-  	padding: 5px;
+    font-size: 20px;
+    margin: 5% 40% 0% 40%;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.contactFormButton:hover {
+	cursor: pointer;
 }

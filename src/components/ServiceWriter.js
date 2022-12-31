@@ -62,7 +62,7 @@ function ServiceWriter() {
                 <input className="slideNavigate" type="button" value="<" onClick={handleClick} name="preview" id="preview" />
                 <div className="slideImages">
                     <div className="slideImg" >
-                        <img src={image} alt="image-1" id={id} className="imageview" />
+                        <img src={image} alt="review" id={id} className="imageview" />
                     </div>
                 </div>
                 <input className="slideNavigate" type="button" value=">" onClick={handleClick} name="next" id="next" />

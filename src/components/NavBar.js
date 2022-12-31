@@ -1,5 +1,5 @@
 import React, {useState, Fragment} from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link /*useNavigate*/ } from "react-router-dom";
 import "./NavBar.css"
 
 function NavBar() {
@@ -8,7 +8,7 @@ const [colorChange, setColorchange] = useState(false);
 const [serviceChange, setServiceChange] = useState(false)
   const changeNavbar = () =>{
 
-     if(window.scrollY >= 150){
+     if(window.scrollY > 99){
        setColorchange(true);
        setServiceChange(true)
      }
@@ -20,12 +20,12 @@ const [serviceChange, setServiceChange] = useState(false)
   window.addEventListener('scroll', changeNavbar);
 
 
-  const navigate = useNavigate()
+  /*const navigate = useNavigate()
 
-  function ServiceClick(e){
+  /*function ServiceClick(e){
     e.preventDefault();
     navigate("/services")
-  }
+  }*/
 
   return (
     <Fragment>

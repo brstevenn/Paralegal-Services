@@ -1,9 +1,7 @@
-import React, {useState, useEffect} from "react";
-import { useLocation, useNavigate} from "react-router-dom";
+import React from "react";
+import { useNavigate} from "react-router-dom";
 import NavBar from './NavBar'
 import './styles/Prices.css'
-
-import useQueryParams from './hooks/useQueryParams'
 
 function Prices() {
 
@@ -12,7 +10,7 @@ function Prices() {
   function handleClick(e) {
     e.preventDefault();
 
-    if(e.target.id != undefined) {  
+    if(e.target.id !== undefined) {  
       navigate(`/Paralegal-Services/form?${e.target.id}`)
     }
   }
